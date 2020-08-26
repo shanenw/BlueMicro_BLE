@@ -23,11 +23,16 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 
 /* HARDWARE DEFINITION*/
 /* key matrix size */
-#define MATRIX_ROWS 4
-#define MATRIX_COLS 7
+//#define MATRIX_ROWS 4
+//#define MATRIX_COLS 7
+//#define MATRIX_ROW_PINS {13, 24, 9, 10 }
+//#define MATRIX_COL_PINS {26, 29, 2, 45, 3, 28, 43 }
 
-#define MATRIX_ROW_PINS {13, 24, 9, 10 }
-#define MATRIX_COL_PINS {26, 29, 2, 45, 3, 28, 43 }
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 6
+#define MATRIX_ROW_PINS {13, 24, 9, 10, 38 }
+#define MATRIX_COL_PINS {29, 2, 45, 3, 28, 43 }
+
 #define UNUSED_PINS {}
 #define BACKLIGHT_LED_PIN 38 
 #define DEFAULT_PWM_VALUE 10000            // PWM intensity
